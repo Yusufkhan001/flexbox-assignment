@@ -1,0 +1,73 @@
+/* Box-sizing border-box */
+* { box-sizing: border-box; }
+
+
+/* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
+[class^="box"] {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+/* Colors for each box */
+.box1 { background:black;}
+.box2 { background:black;}
+.box3 { background:black;}
+.box4 { background:black;}
+.box5 { background:black;}
+.box6 { background:black;}
+.box7 { background:black;}
+.box8 { background:black;}
+.box9 { background:black;}
+.box10 { background:black;}
+
+
+/* We start writing our flexbox here. The above is just page setup */
+.flex-container {
+    display: flex;
+   border:10px solid goldenrod;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 100vh;
+    
+}
+
+[class^="box"] {
+     width: 33.33%;
+
+}
+
+.box1 {
+    
+}
+
+.box2 {
+
+}
+.box3 {
+
+}
+.box4 {
+
+}
+.box5 {
+
+}
+.box6 {
+
+}
+.box7 {
+
+}
+.box8 {
+
+}
+.box9 {
+
+}
+.box10 {
+
+}
